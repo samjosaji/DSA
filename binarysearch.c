@@ -3,7 +3,7 @@ void main()
 {
 	int left=0,n,x,i,mid,flag=0,t=0,right;
 	t++;
-	printf("Enter the value of n");t++;
+	printf("Enter the value of n:");t++;
 	scanf("%d",&n);t++;
 	int a[n];
 	printf("Enter Array Elements:");t++;
