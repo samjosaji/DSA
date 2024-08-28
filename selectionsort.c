@@ -3,10 +3,10 @@ void main()
 {
 	int i=0,n,j,small,temp=0,t=0;
 	t+2;
-	printf("enter the no of elements");t++;
+	printf("enter the no of elements:");t++;
 	scanf("%d",&n);t+2;
 	int a[n];
-	printf("eneter the array elements");
+	printf("eneter the array elements:");
 	t+2;
 	for(i=0;i<n;i++)
 	{
@@ -42,7 +42,7 @@ void main()
 		t+2;
 	}t++;t++;
 	printf("\nThe Time Complexity is %d",t);
-	printf("\nspace Complexity is %d",(24+(n*4)));
+	printf("\nspace Complexity is %d\n",(24+(n*4)));
 }
 			
 		
