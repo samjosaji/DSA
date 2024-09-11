@@ -2,12 +2,12 @@
 void main()
 {
 	int m,n,k=1,i,j;
-	printf("Enter The Row Of Matrix");
+	printf("Enter The Row Of Matrix:");
 	scanf("%d",&m);
-	printf("Enter The Coloumn Of Matrix");
+	printf("Enter The Coloumn Of Matrix:");
 	scanf("%d",&n);
 	int a[30][30],b[40][3];
-	printf("Enter The Element");
+	printf("Enter The Element:");
 	for(i=0;i<m;i++)
 	{
 		for(j=0;j<n;j++)
@@ -41,7 +41,8 @@ void main()
 		}
 	}
 	b[0][2]=k-1;
-	printf("\n");
+	printf("\nSparse matrix is \n");
+	printf("Row Coloumn Values\n");
 	for(i=0;i<k;i++)
 	{
 		for(j=0;j<3;j++)
