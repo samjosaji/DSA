@@ -7,7 +7,7 @@ struct pol
 void main()
 {
 	int n,i;
-	printf("Enter the number Of terms of the polynomia:l");
+	printf("Enter the number Of terms of the polynomia:");
 	scanf("%d",&n);
 	struct pol a[n];
 	printf("enter the terms of the polynomial in descending:\n");
