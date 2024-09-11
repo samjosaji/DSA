@@ -6,7 +6,7 @@ int item,top=-1,a[30],i,size;
 void main()
 {
 int ch;
-printf("Enter limit:");
+printf("Enter Size:");
 scanf("%d",&size);
 while(ch!=4)
 {
