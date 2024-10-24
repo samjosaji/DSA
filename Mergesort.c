@@ -67,17 +67,17 @@ void printArray(int a[], int n)
 int main()
 {
     int a[10], n, i;
-    printf("Enter the number of elements: ");
+    printf("Enter The Number Of Elements: ");
     scanf("%d", &n);
-    printf("Enter the elements:");
+    printf("Enter The Elements:");
     for (i = 0;i < n;i++) 
     {
         scanf("%d", &a[i]);
     }
-    printf("Before sorting array elements are - \n");
+    printf("The Inputed Array Is: \n");
     printArray(a, n);
     mergeSort(a, 0, n - 1);
-    printf("After sorting array elements are - \n");
+    printf("The Sorted Array Is: \n");
     printArray(a, n);
     return 0;
 }
